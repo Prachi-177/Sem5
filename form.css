@@ -1,7 +1,56 @@
 form{
     width: 400px;
+    padding:10px;
+    border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.form-wrapper{
+    width:400px;
+    margin:auto;
 }
 input{
     width: 100%;
     padding: 10px;
+}
+header{
+    font-size: 40px;
+}
+.form-group{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+input[type="Submit"],button{
+    background-color: green;
+    border-radius: 10px; 
+    width:100%;   
+padding: 15px 25px;
+
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #fff;
+background-color: #04AA6D;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+input[type="Submit"],button:hover {
+    background-color: #1b1f1b;
+}
+
+input[type="Submit"],button:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+input[type="text"],input[type="password"]
+input[type="number"]{
+    width:100%;
+  
 }
