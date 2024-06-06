@@ -32,3 +32,37 @@ p{
     background-color:violet;
     height: 400px;
 }
+.main-container{
+    height:200px;
+    width:200px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    transition: all 0.5s linear ;
+    
+}
+
+.main-container
+{
+    
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.firstElement{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 4s linear;
+}
+
+.firstElement:hover{
+    background-color:violet;
+    height: 400px;
+}
